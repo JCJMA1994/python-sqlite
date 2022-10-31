@@ -1,4 +1,5 @@
 # SQLite con Python
+CRUD basico con SQLite y Python
 ## Preparacion del entorno
 ### SQLite Browser
 Descargar el browser de SQLite desde [aquí](https://sqlitebrowser.org/dl/) y ejecutarlo.
