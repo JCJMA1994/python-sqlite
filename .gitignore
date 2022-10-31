@@ -8,6 +8,7 @@
 *.db-shm
 *.db-wal
 *.sql
+*.db-journal
 
 
 ### Python ###
