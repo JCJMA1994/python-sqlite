@@ -70,8 +70,8 @@ def deleteData(connection, cursor):
 
 if __name__ == "__main__":
     con, cur = connect()
-    # createTable(con, cur)
+    createTable(con, cur)
     # insertData(con, cur)
-    print(selectData(con, cur))
+    # print(selectData(con, cur))
     # updateData(con, cur)
     # deleteData(con, cur)
