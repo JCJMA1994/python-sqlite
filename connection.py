@@ -24,3 +24,10 @@ def createTable(connection, cursor):
     cursor.execute(query)
     connection.close()
     print("Table created successfully")
+
+
+def query_students(query, parameters=()):
+    conn, cursor = connect()
+    result = cursor.execute(query, parameters)
+    conn.commit()
+    return result
